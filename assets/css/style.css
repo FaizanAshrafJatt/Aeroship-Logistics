@@ -553,12 +553,12 @@ textarea:focus {
 
 .tj-header-menu-bottom .menu-search-box .hambugar-icon i {
     font-size: 35px;
-    color: var(--tj-white-color);
+    color:  var(--tj-primary-color);
     transition: 0.4s;
 }
 
 .tj-header-menu-bottom .menu-search-box .hambugar-icon i:hover {
-    color: var(--tj-primary-color);
+    color: white;
 }
 
 .tj-header-menu-bottom .menu-search-box .hambugar-icon::before {
@@ -592,9 +592,15 @@ textarea:focus {
 }
 
 .header-section-three .tj-main-menu li a {
-    color: var(--tj-white-color);
+    font-size: 18px;
+  font-weight: bold;
+    color: var(--tj-primary-color);
 }
 
+.header-section-three .tj-main-menu li a:hover{
+
+    color: white;
+}
 .header-section-three .tj-main-menu > ul > li.menu-item-has-children > a::before {
     color: var(--tj-white-color);
 }
@@ -1414,7 +1420,7 @@ animated logo
     height: 2px;
     width: 30px;
     display: block;
-    background: var(--tj-white-color);
+    background: var(--tj-primary-color);
     cursor: pointer;
     list-style: none;
     margin: 8px 0;
@@ -1433,7 +1439,7 @@ animated logo
 }
 
 .header-section-three .tj-hambagur-icon a:hover span {
-    background: var(--tj-primary-color);
+    background:  var(--tj-white-color);
 }
 
 .header-section-three .tj-hambagur-icon a:hover .dot2,
@@ -8152,14 +8158,14 @@ div .tj-service-icon-box2 ul li:hover .service-item::before {
 }
 
 .header-section-three .header_searce button i {
-    color: var(--tj-white-color);
+    color:  var(--tj-primary-color);
     transition: 0.4s;
     font-size: 25px;
     font-weight: 600;
 }
 
 .header_searce button i:hover {
-    color: var(--tj-primary-color);
+    color:var(--tj-white-color);
 }
 
 .search_popup.search-opened {
